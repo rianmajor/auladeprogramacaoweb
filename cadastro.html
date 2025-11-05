@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro - ONG Esperança</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script defer src="js/scripts.js"></script>
+    <title>Cadastro de Voluntário</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
@@ -20,53 +19,52 @@
 </header>
 
 <main>
-    <form id="formCadastro">
-        <fieldset>
-            <legend>Seus Dados</legend>
+    <form id="form-voluntario">
 
-            <label>Nome Completo:
-                <input type="text" name="nome" required>
-            </label>
+        <label>Nome Completo
+            <input type="text" required>
+        </label>
 
-            <label>E-mail:
-                <input type="email" name="email" required>
-            </label>
+        <label>E-mail
+            <input type="email" required>
+        </label>
 
-            <label>CPF:
-                <input type="text" name="cpf" id="cpf" required>
-            </label>
+        <label>CPF
+            <input type="text" id="cpf" required maxlength="14">
+        </label>
 
-            <label>Telefone:
-                <input type="tel" name="telefone" id="telefone" required>
-            </label>
+        <label>Telefone
+            <input type="text" id="tel" required maxlength="15">
+        </label>
 
-            <label>Data de Nascimento:
-                <input type="date" name="data" required>
-            </label>
+        <label>Data de Nascimento
+            <input type="date" required>
+        </label>
 
-            <label>CEP:
-                <input type="text" name="cep" id="cep" required>
-            </label>
+        <label>Endereço
+            <input type="text" required>
+        </label>
 
-            <label>Cidade:
-                <input type="text" name="cidade" required>
-            </label>
+        <label>CEP
+            <input type="text" id="cep" required maxlength="9">
+        </label>
 
-            <label>Estado:
-                <input type="text" name="estado" required>
-            </label>
+        <label>Cidade
+            <input type="text" required>
+        </label>
 
-        </fieldset>
+        <label>Estado
+            <input type="text" required maxlength="2">
+        </label>
 
-        <button type="submit">Cadastrar</button>
+        <button type="submit">Enviar Cadastro ✅</button>
     </form>
-
-    <p id="status"></p>
 </main>
 
 <footer>
-    <p>© ONG Esperança - 2024</p>
+    © 2025 - Voluntariar • Obrigado por se engajar 💚
 </footer>
 
+<script src="assets/js/scripts.js"></script>
 </body>
 </html>
